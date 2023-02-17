@@ -1,0 +1,77 @@
+.pricing{
+    padding: 40px;
+    background-color:#000000;
+    color: white;
+  }
+  .pricing header {
+    margin-bottom: 40px;
+  }
+.pricing header .info h1{
+    display: flex;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 64px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color:#F25123;
+}
+.pricing header .info p{
+    font-size: 32px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+.pricing main{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 50px;
+    margin:50px;
+}
+.pricing main .high{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 30px;
+    padding: 30px;
+    line-height: 40px;
+}
+.pricing main .high h3{
+width: 46px;
+height: 25px;
+font-weight: 600;
+font-size: 20.3493px;
+line-height: 25px;
+}
+.pricing main .high button{
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 13.3542px;
+    width: 108.74px;
+    height: 29.89px;
+}
+#check{
+    color: rgba(255, 255, 255, 0.25);
+}
+.pricing main .high div{
+    display: flex;
+    font-size: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+.pricing .dots{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    font-size: 20px;
+    padding: 50px;
+}

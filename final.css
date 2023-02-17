@@ -1,0 +1,94 @@
+footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-image: url(background_blur.png);
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    
+}
+footer div:first-child .logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+footer div:first-child > p{
+    color:rgba(255, 255, 255, 0.25);
+    width: 60% ;
+}
+footer div:first-child > button{
+    background: transparent;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+footer div:first-child > button svg{
+    width: 30px;
+    height: 30px;
+    fill: rgba(255, 255, 255, 0.25);
+}
+footer div:first-child .social-media{
+    display: flex;
+    gap:15px;
+}
+footer div:first-child .social-media div{
+    display: flex;
+    background-color:rgba(255, 255, 255, 0.25);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+footer div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer div:nth-child(2) ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+}
+footer div:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer div:nth-child(3) ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+}
+footer div:nth-child(4) ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer div:nth-child(4) ul li{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+footer div:nth-child(4) > h2{
+    border-bottom: 3px solid  #F25123;
+    padding: 15px 0;
+   margin-bottom: 30px;
+}
+@media (max-width: 635px) {  
+    footer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 430px) {
+   
+    footer {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+  }
